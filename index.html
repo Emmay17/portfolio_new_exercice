@@ -8,53 +8,61 @@
 </head>
 <body>
     <!-- tête -->
-    <header>
-        <img src="assets/logo.png" alt="">
+    <header class="headerIndex">
+        <img src="assets/logo.png" alt="logo_page" class="headerIndex-img">
 
-        <menu>
+        <menu class="headerIndex__menu">
             <li><a href="#">Home</a></li>
             <li><a href="#">About Me</a></li>
             <li><a href="#">Services</a></li>
             <li><a href="#">Projets</a></li>
             <li><a href="#">Testimonials</a></li>
             <li><a href="#">Contact</a></li>
-            <li><a href="">Download CV</a></li>
+            <li><button class="headerIndex__menu-button">Download CV</button></li>
         </menu>
     </header>
     <!-- corps -->
-    <main>
+    <main class="mainIndex">
         <!-- debut premier section  -->
-        <section>
-            <div>
+        <section class="mainIndex__hiSection">
+            <div class="mainIndex__hiSection__hireMeDiv">
+                <div class="mainIndex__hiSection__hireMeDiv__divTitle">
+                    <p class="mainIndex__hiSection__hireMeDiv__divTitle-p">
+                        Hi i am
+                    </p>
+    
+                    <h2 class="mainIndex__hiSection__hireMeDiv__divTitle-h2">
+                        Fawzi Sayed
+                    </h2>
+                </div>
+
+                    <div>
+                        <h1>
+                            <span>
+                                UI & UX
+                            </span>
+
+                            <span>
+                                Designer
+                            </span>
+                        </h1>
+                    </div>
                 <p>
-                    Hi i am
+                    Lorem ipsum dolor sit amet consectetur.
+                    Tristique amet sed massa nibh lectus netus in.
+                    Aliquet donec morbi convallis pretium.
+                    Turpis tempus pharetra
                 </p>
 
-                <h2>
-                    Fawzi Sayed
-                </h2>
-
-            <div>
-                   <h1>
-                    UI & UX Designer
-                   </h1>
-            </div>
-                <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Dolore in nam ut reiciendis distinctio sunt dignissimos,
-                        a beatae temporibus dolorum unde ab 
-                        possimus excepturi, voluptate nobis sint. Perferendis, autem architecto!
-                </p>
-
-                <a>
+                <a class="mainIndex__hiSection__imgDiv-btn">
                     Hire me 
                 </a>
             </div>
 
-            <div>
-                <img src="assets/img1.png" alt="homme en orange 1">
+            <div class="mainIndex__hiSection__imgDiv">
+                <img class="mainIndex__hiSection__imgDiv-img" src="assets/img1.png" alt="homme en orange 1">
 
-                <ul>
+                <ul class="mainIndex__hiSection__imgDiv-ul">
                     <li><a href="#"><img src="assets/Facebook.png" alt="logo_facebook"></a></li>
                     <li><a href="#"><img src="assets/Twitter.png" alt="logo_twitter"></a></li>
                     <li><a href="#"><img src="assets/Instagram.png" alt="logo_insta"></a></li>
@@ -65,25 +73,28 @@
         </section>
 
         <!-- fin premier section  -->
-         ---------------------------------------
+         <!-- --------------------------------------- -->
         <!-- commencement deuxieme section -->
-         <section>
-            <div>
-                <img src="assets/img2.png" alt="homme orange 2">
+         <section class="mainIndex__AboutMeSection">
+
+            <div class="mainIndex__AboutMeSection__divImg">
+                <img class="mainIndex__AboutMeSection__divImg-img" src="assets/img2.png" alt="homme orange 2">
             </div>
 
-            <div>
-                <h2>About Me</h2>
+            <div class="mainIndex__AboutMeSection__div">
+                <div class="mainIndex__AboutMeSection__div__title">
+                    <h2 class="mainIndex__AboutMeSection__div__title-h2">About Me</h2>
 
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Dolore in nam ut reiciendis distinctio sunt dignissimos,
-                    a beatae temporibus dolorum unde ab 
-                    possimus excepturi, voluptate nobis sint. Perferendis, autem architecto!
-                </p>
+                    <p class="mainIndex__AboutMeSection__div__title-p">
+                        Lorem ipsum dolor sit amet consectetur.
+                        Tristique amet sed massa nibh lectus netus in.
+                        Aliquet donec morbi convallis pretium.
+                        Turpis tempus pharetra
+                    </p>
+                </div>
 
                 <!-- <img src="assets/stat_img.png" alt="jauge des competences"> -->
-                 <ul>
+                 <ul class="mainIndex__AboutMeSection__div__ul">
                     <li>
                         <p>UX</p>
                         <div></div>
@@ -106,21 +117,20 @@
         <!-- fin deuxieme sexion -->
 
         <!-- debut troisieme section -->
-         <section>
-            <div>
-                <h2>
+         <section class="mainIndex__serviceSection">
+            <div class="mainIndex__serviceSection__divTitle">
+                <h2 class="mainIndex__serviceSection__divTitle-h2">
                     Services
                 </h2>
     
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Dolore in nam ut reiciendis distinctio sunt dignissimos,
-                    a beatae temporibus dolorum unde ab 
-                    possimus excepturi, voluptate nobis sint. Perferendis, autem architecto!
+                <p class="mainIndex__serviceSection__divTitle-p">
+                    Lorem ipsum dolor sit amet consectetur.
+                    Tristique amet sed massa nibh lectus netus in.
+                    Aliquet donec morbi convallis pretium
                 </p>
             </div>
 
-            <ul>
+            <ul class="mainIndex__serviceSection__divTitle__ul">
                 <li>
                     <a href="">
                         <div>
@@ -186,17 +196,19 @@
          <!-- fin troisieme section -->
 
          <!-- debut Quatrieme section -->
-          <section>
-            <div>
-                <h2>
+          <section class="mainIndex__myProjetcs">
+            <div class="mainIndex__myProjetcs__title">
+                <h2 class="mainIndex__myProjetcs__title-h2">
                     My Projets
                 </h2>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, corporis voluptatem dignissimos accusantium provident laboriosam velit dicta ratione officia aperiam? Suscipit corrupti sapiente, eos consequatur accusantium saepe laboriosam animi ea!
+                <p class="mainIndex__myProjetcs__title-p">
+                    Lorem ipsum dolor sit amet consectetur.
+                    Tristique amet sed massa nibh lectus netus in.
+                    Aliquet donec morbi convallis pretium
                 </p>
             </div>
 
-            <ul>
+            <ul class="mainIndex__myProjetcs__ulButtons">
                 <li>
                     <button>All</button>
                 </li>
@@ -207,15 +219,14 @@
                     <button>Web Design</button>
                 </li>
                 <li>
-                    <button>pp Design</button>
+                    <button>App Design</button>
                 </li>
                 <li>
                     <button>Graphic Design</button>
                 </li>
             </ul>
 
-            <div>
-                <ul>
+                <ul class="mainIndex__myProjetcs__ulImg">
                     <li>
                         <a href="">
                             <div>
@@ -262,83 +273,93 @@
                         </a>
                     </li>
                 </ul>
-            </div>
           </section>
           <!-- fin Quatrieme section -->
 
           <!-- debut Cinquieme section -->
-           <section>
-            <h2>
-                Testimonials
-            </h2>
-            <p>
-                Lorem ipsum dolor sit amet consectetur.
-                Tristique amet sed massa nibh lectus netus in.
-                Aliquet donec morbi convallis pretium
-            </p>
+           <section class="mainIndex__testimonials">
+            <div class="mainIndex__testimonials__title">
+                <h2 class="mainIndex__testimonials__title-h2">
+                    Testimonials
+                </h2>
+                <p class="mainIndex__testimonials__title-p">
+                    Lorem ipsum dolor sit amet consectetur.
+                    Tristique amet sed massa nibh lectus netus in.
+                    Aliquet donec morbi convallis pretium
+                </p>
+            </div>
 
-            <ul>
+            <ul class="mainIndex__testimonials__title__ul">
                 <li>
                     <img src="assets/personne_testimole.png" alt="">
 
-                    <blockquote>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur.
-                            In enim cursus odio accumsan. Id leo urna velit neque mattis
-                            id tellus arcu condimentum. Augue dictum dolor elementum convallis
-                            dignissim malesuada commodo ultrices.
-                        </p>
-                    </blockquote>
-    
-                    <p>
-                        Name
-                    </p>
-    
-                    <Span>
-                        CEO
-                    </Span>
+                    <div>
+                        <blockquote>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur.
+                                In enim cursus odio accumsan.
+                                Id leo urna velit mattis id tellus arcu condimentum.
+                                Augue dictum dolor elementum convallis dignissim malesuada commodo ultrices.
+                            </p>
+                        </blockquote>
+        
+                        <div>
+                            <p>
+                                Name
+                            </p>
+                            <Span>
+                                CEO
+                            </Span>
+                        </div>
+                    </div>
                 </li>
 
                 <li>
                     <img src="assets/personne_testimole.png" alt="">
 
-                <blockquote>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur.
-                        In enim cursus odio accumsan. Id leo urna velit neque mattis
-                        id tellus arcu condimentum. Augue dictum dolor elementum convallis
-                        dignissim malesuada commodo ultrices.
-                    </p>
-                </blockquote>
-
-                <p>
-                    Name
-                </p>
-
-                <Span>
-                    CEO
-                </Span>
+                    <div>
+                        <blockquote>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur.
+                                In enim cursus odio accumsan.
+                                Id leo urna velit mattis id tellus arcu condimentum.
+                                Augue dictum dolor elementum convallis dignissim malesuada commodo ultrices.
+                            </p>
+                        </blockquote>
+        
+                        <div>
+                            <p>
+                                Name
+                            </p>
+                            <Span>
+                                CEO
+                            </Span>
+                        </div>
+                    </div>
                 </li>
 
                 <li>
                     <img src="assets/personne_testimole.png" alt="">
 
-                <blockquote>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur.
-                        In enim cursus odio accumsan. Id leo urna velit neque mattis
-                        id tellus arcu condimentum. Augue dictum dolor elementum convallis
-                        dignissim malesuada commodo ultrices.
-                    </p>
-                </blockquote>
-
-                <p>
-                    Name
-                </p>
-
-                <Span>
-                    CEO
-                </Span>
+                    <div>
+                        <blockquote>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur.
+                                In enim cursus odio accumsan.
+                                Id leo urna velit mattis id tellus arcu condimentum.
+                                Augue dictum dolor elementum convallis dignissim malesuada commodo ultrices.
+                            </p>
+                        </blockquote>
+        
+                        <div>
+                            <p>
+                                Name
+                            </p>
+                            <Span>
+                                CEO
+                            </Span>
+                        </div>
+                    </div>
                 </li>
             </ul>
 
@@ -351,29 +372,31 @@
             <!-- fin Cinquieme section -->
 
             <!-- debut Sixieme section -->
-             <section>
-                <h2>
-                    Lets Design Together
-                </h2>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur. Tristique
-                    amet sed massa nibh lectus netus in. Aliquet donec morbi convallis pretium
-                </p>
+             <section class="mainIndex__letsDesign">
+                <div class="mainIndex__letsDesign__title">
+                    <h2 class="mainIndex__letsDesign__title-h2">
+                        Lets Design Together
+                    </h2>
+                    <p class="mainIndex__letsDesign__title-p">
+                        Lorem ipsum dolor sit amet consectetur. Tristique
+                        amet sed massa nibh lectus netus in. Aliquet donec morbi convallis pretium
+                    </p>
+                </div>
 
-                <form action="submit">
-                    <input type="text" placeholder="Enter Your Email">
-                    <button type="submit">Contact Me</button>
+                <form action="submit" class="mainIndex__letsDesign__form">
+                    <input type="text" placeholder="Enter Your Email" class="mainIndex__letsDesign__form-input">
+                    <button type="submit" class="mainIndex__letsDesign__form-button">Contact Me</button>
                 </form>
              </section>
              <!-- fin sixieme section -->
     </main>
     <!-- bas de page  -->
-    <footer>
+    <footer class="mainIndex__footer">
         <!-- partie blanche du footer -->
-        <div>
-            <img src="assets/logo.png" alt="logo__page">
+        <div class="mainIndex__footer__div">
+            <img class="mainIndex__footer__div-img" src="assets/logo.png" alt="logo__page">
 
-            <ul>
+            <ul class="mainIndex__footer__div__ulMenu">
                 <li><a href="#">Home</a></li>
                 <li><a href="#">About Me</a></li>
                 <li><a href="#">Services</a></li>
@@ -382,7 +405,7 @@
                 <li><a href="#">Contact</a></li>
             </ul>
 
-            <ul>
+            <ul class="mainIndex__footer__div__ulLinks">
                 <li><a href="#"><img src="assets/Facebook.png" alt="logo_facebook"></a></li>
                 <li><a href="#"><img src="assets/Twitter.png" alt="logo_twitter"></a></li>
                 <li><a href="#"><img src="assets/Instagram.png" alt="logo_insta"></a></li>
@@ -390,7 +413,7 @@
             </ul>
         </div>
         <!-- partie noir du footer -->
-            <p>
+            <p class="mainIndex__footer-p">
                 ©2023 <strong>FawziUiUx</strong> All Rights Reserved , Inc.
             </p>
     </footer>
