@@ -16,37 +16,37 @@
     --grisFonce : #545454;
 }
 
-.headerIndex{
+.header{
     display: flex;
     justify-content: space-between;
     padding: 20px 150px;
 }
 
-.headerIndex-img{
+.header-img{
     height: 110px;
     width: auto;
     cursor: pointer;
 }
 
-.headerIndex__menu{
+.header__menu{
     display: flex;
     gap: 1rem;
     align-items: center;
     font-size: 16px;
     font-weight: 400;
 }
-.headerIndex__menu li {
+.header__menu li {
     transition: transform 0.4s ease-in-out;
 }
 
-.headerIndex__menu li:hover{
+.header__menu li:hover{
     transform: scale(1.2);
 }
-.headerIndex__menu li a:hover{
+.header__menu li a:hover{
     color: var(--orange);
 }
 
-.headerIndex__menu-button{
+.header__menu-button{
     padding: 0.5rem;
     background: var(--orange);
     color: white;
@@ -62,7 +62,7 @@
 /* MAIN */
 
 /* 01 SECTION */
-.mainIndex__hiSection{
+.main_index__hi_Section{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -70,7 +70,7 @@
     width: 100%;
 }
 
-.mainIndex__hiSection__hireMeDiv{
+.main_index__hi_Section__left_container{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -79,60 +79,37 @@
     box-sizing: border-box;
 }
 
-.mainIndex__hiSection__hireMeDiv__divTitle-p{
+.main_index__hi_Section__left_container__description__p{
     font-weight: 600;
 }
 
-.mainIndex__hiSection__hireMeDiv__divTitle-h2{
+.main_index__hi_Section__left_container__description__h2{
     font-weight: 600;
     color: var(--orange);
 }
 
-.mainIndex__hiSection__hireMeDiv h1{
+.main_index__hi_Section__left_container h1{
     text-align: left; /* Alignement par défaut */
     line-height: 1;
     font-size: 80px;
     padding-bottom: 1rem;
 }
 
-.mainIndex__hiSection__hireMeDiv h1 span:first-child {
+.main_index__hi_Section__left_container h1 span:first-child {
     display: block; /* Place "Emmanuel" sur une ligne séparée */
 }
 
-.mainIndex__hiSection__hireMeDiv h1 span:last-child {
+.main_index__hi_Section__left_container h1 span:last-child {
     display: block; 
     margin-left: 12rem;
 }
 
-.mainIndex__hiSection__hireMeDiv p{
+.main_index__hi_Section__left_container p{
     width: 100%;
     text-align: justify;
 }
 
-.mainIndex__hiSection__imgDiv{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 50%;
-    box-sizing: border-box;
-}
-.mainIndex__hiSection__imgDiv-img{
-    width: 450px;
-    height: auto;
-}
-
-.mainIndex__hiSection__imgDiv-ul{
-    display: flex;
-    gap: 1rem;
-    padding: 1rem 0;
-}
-
-.mainIndex__hiSection__imgDiv-ul img{
-    width: 32.48px;
-    height: 32.48px;
-}
-
-.mainIndex__hiSection__imgDiv-btn{
+.main_index__hi_Section__left_container__btn{
     width: 188px;
     height: 52px;
     color: white;
@@ -142,10 +119,35 @@
     border-radius: 5px;
     cursor: pointer;
 }
+
+.main_index__hi_Section__right_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    box-sizing: border-box;
+}
+.main_index__hi_Section__right_container__img{
+    width: 450px;
+    height: auto;
+}
+
+.main_index__hi_Section__right_container__ul{
+    display: flex;
+    gap: 1rem;
+    padding: 1rem 0;
+}
+
+.main_index__hi_Section__right_container__ul img{
+    width: 32.48px;
+    height: 32.48px;
+}
+
+
 /* 01 SECTION END */
 
 /* 02 SECTION START */
-.mainIndex__AboutMeSection{
+.main_index__about_me{
     display: flex;
     justify-content: space-between;
     padding: 61px 150px;
@@ -153,45 +155,45 @@
     align-items: center;
 }
 
-.mainIndex__AboutMeSection__divImg{
+.main_index__about_me__div_img{
     width: 50%;
 }
-.mainIndex__AboutMeSection__divImg-img{
+.main_index__about_me__left_container_img{
     width: 545.81px;
     height: auto;
 }
 
-.mainIndex__AboutMeSection__div{
+.main_index__about_me__right_containe{
     width: 50%;
 }
-.mainIndex__AboutMeSection__div__title{
+.main_index__about_me__right_container__description{
     text-align: left;
     display: flex;
     flex-direction: column;
 }
 
-.mainIndex__AboutMeSection__div__title-h2{
+.main_index__about_me__right_container__description_h2{
     font-size: 65px;
     font-weight: 600;
 }
 
-.mainIndex__AboutMeSection__div__title-p{
+.main_index__about_me__right_container__description_p{
     text-align: justify;
 }
 
-.mainIndex__AboutMeSection__div__ul{
+.main_index__about_me__right_container__ul{
     padding-top: 1rem;
 }
 
-.mainIndex__AboutMeSection__div__ul li{
+.main_index__about_me__right_container__ul li{
     padding: 1rem 0;
 }
-.mainIndex__AboutMeSection__div__ul li p{
+.main_index__about_me__right_container__ul li p{
     font-size: 24px;
     font-weight: 600;
 }
 
-.mainIndex__AboutMeSection__div__ul div{
+.main_index__about_me__right_container__ul div{
     background: var(--orange);
     height: 10px;
     border-radius: 50px;
@@ -199,7 +201,7 @@
 /* 02 SECTION END  */
 
 /* 03 SECTION START */
-.mainIndex__serviceSection{
+.main_index__service{
     display: flex;
     gap: 2rem;
     padding: 61px 150px;
@@ -208,31 +210,31 @@
     flex-direction: column;
 }
 
-.mainIndex__serviceSection__divTitle{
+.main_index__service__description{
     text-align: center;
 }
-.mainIndex__serviceSection__divTitle-h2{
+.main_index__service__description__h2{
     font-size: 65px;
     font-weight: 600;
 }
 
-.mainIndex__serviceSection__divTitle-p{
+.main_index__service__description__p{
     width: 40rem;
 }
 
-.mainIndex__serviceSection__divTitle__ul{
+.main_index__service__ul{
     display: flex;
     gap: 2rem;
 }
 
-.mainIndex__serviceSection__divTitle__ul li{
+.main_index__service__ul li{
     width: 15rem;
     height: 346px;
     background: var(--gris);
     border-radius: 14px;
 }
 
-.mainIndex__serviceSection__divTitle__ul li a div{
+.main_index__service__ul li a div{
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -242,7 +244,7 @@
     height: 100%;
 }
 
-.mainIndex__serviceSection__divTitle__ul li a div img{
+.main_index__service__ul li a div img{
     width: 55px;
     height: 55px;
     object-fit: contain; 
@@ -251,7 +253,7 @@
 /* 03 SECTION END */
 
 /* 04 SECTION START */
-.mainIndex__myProjetcs{
+.main_index__my_projetcs{
     display: flex;
     gap: 2rem;
     padding: 61px 150px;
@@ -259,54 +261,54 @@
     align-items: center;
     flex-direction: column;
 }
-.mainIndex__myProjetcs__title{
+.main_index__my_projetcs__description{
     display: flex ;
     flex-direction: column;
     text-align: center;
     justify-content: center;
 }
-.mainIndex__myProjetcs__title-h2{
+.main_index__my_projetcs__description__h2{
     font-size: 65px;
     font-weight: 600;
 }
 
-.mainIndex__myProjetcs__title-p{
+.main_index__my_projetcs__description__p{
     width: 40rem;
 }
 
-.mainIndex__myProjetcs__ulButtons{
+.main_index__my_projetcs__ul_buttons{
     display: flex;
     gap: 1rem;
 }
 
-.mainIndex__myProjetcs__ulButtons button{
+.main_index__my_projetcs__ul_buttons button{
     padding: 0.3rem;
     border-radius: 8px;
     border: gray 0.4px solid;
 }
 
-.mainIndex__myProjetcs__ulImg{
+.main_index__my_projetcs__ul_img{
     display: flex;
     justify-content: space-between;
     width: 100%;
 }
 
-.mainIndex__myProjetcs__ulImg li a div{
+.main_index__my_projetcs__ul_img li a div{
     display: flex;
     flex-direction: column;
 }
 
-.mainIndex__myProjetcs__ulImg li a div span{
+.main_index__my_projetcs__ul_img li a div span{
     color: var(--orange);
 }
 
-.mainIndex__myProjetcs__ulImg li a div p{
+.main_index__my_projetcs__ul_img li a div p{
     font-weight: 600;
 }
 /* 04 SECTION END */
 
 /* 05 SECTION START */
-.mainIndex__testimonials{
+.main_index__testimonials{
     display: flex;
     gap: 2rem;
     padding: 61px 150px;
@@ -315,20 +317,20 @@
     flex-direction: column;
 }
 
-.mainIndex__testimonials__title{
+.main_index__testimonials__description{
     text-align: center;
 }
 
-.mainIndex__testimonials__title-h2{
+.main_index__testimonials__descriptio__h2{
     font-size: 65px;
     font-weight: 600;
 }
 
-.mainIndex__testimonials__title-p{
+.main_index__testimonials__description__p{
     width: 40rem;
 }
 
-.mainIndex__testimonials__title__ul{
+.main_index__testimonials__right_container__ul{
     display: flex;
     overflow-x: auto;
     width: 100%;
@@ -337,16 +339,16 @@
     box-sizing: border-box;
 }
 
-.mainIndex__testimonials__title__ul::-webkit-scrollbar {
+.main_index__testimonials__right_container__ul::-webkit-scrollbar {
     height: 1px;
 }
 
-.mainIndex__testimonials__title__ul::-webkit-scrollbar-thumb {
+.main_index__testimonials__right_container__ul::-webkit-scrollbar-thumb {
     background-color: var(--orange); /* Couleur de la barre */
     border-radius: 10px;
 }
 
-.mainIndex__testimonials__title__ul li{
+.main_index__testimonials__right_container__ul li{
     display: flex;
     background: var(--gris);
     width: 100%;
@@ -356,41 +358,41 @@
     border-radius: 1rem;
 }
 
-.mainIndex__testimonials__title__ul li img{
+.main_index__testimonials__right_container__ul li img{
     width: 13rem;
     height: 13rem;
 }
 
-.mainIndex__testimonials__title__ul li div{
+.main_index__testimonials__right_container__ul li div{
     display: flex;
     flex-direction: column;
     gap: 1rem;
     width: 30rem;
 }
 
-.mainIndex__testimonials__title__ul li div blockquote p{
+.main_index__testimonials__right_container__ul li div blockquote p{
     text-align: justify;
 }
 
-.mainIndex__testimonials__title__ul li div blockquote::before{
+.main_index__testimonials__right_container__ul li div blockquote::before{
     content: "“";
     color: var(--orange);
     font-weight:bolder;
 }
 
-.mainIndex__testimonials__title__ul li div blockquote::after{
+.main_index__testimonials__right_container__ul li div blockquote::after{
     content: "”";
     color: var(--orange);
     font-weight:bolder;
 }
 
-.mainIndex__testimonials__title__ul li div div p{
+.main_index__testimonials__right_container__ul li div div p{
     font-weight: 600;
 }
 /* 05 SECTION END */
 
 /* 06 SECTION START */
-.mainIndex__letsDesign{
+.main_index__lets_design{
     display: flex;
     gap: 2rem;
     padding: 61px 150px;
@@ -400,21 +402,21 @@
     flex-direction: column;
 }
 
-.mainIndex__letsDesign__title-h2{
+.main_index__lets_design__description__h2{
     font-size: 65px;
     font-weight: 600;
 }
 
-.mainIndex__letsDesign__title-p{
+.main_index__lets_design__description__p{
     width: 40rem;
 }
 
-.mainIndex__letsDesign__form{
+.main_index__lets_design__form{
     display: flex;
     gap: 1rem;
 }
 
-.mainIndex__letsDesign__form-input{
+.main_index__lets_design__form__input{
     height: 3rem;
     width: 32rem;
     padding: 1rem;
@@ -424,7 +426,7 @@
     
 }
 
-.mainIndex__letsDesign__form-button{
+.main_index__lets_design__form__button{
     width: 8rem;
     border-radius: 10px;
     border: none;
@@ -435,14 +437,14 @@
 /* MAIN END */
 
 /* FOOTER START */
-.mainIndex__footer-p{
+.footer__p{
     background: var(--grisFonce);
     color: white;
     text-align: center;
     padding: 10px;
 }
 
-.mainIndex__footer__div{
+.footer__left_container{
     display: flex;
     flex-direction: column;
     background: var(--gris);
@@ -452,22 +454,22 @@
     padding: 3rem;
 }
 
-.mainIndex__footer__div-img{
+.footer__left_container__img{
     height: 110px;
     width: auto;
     cursor: pointer;
 }
 
-.mainIndex__footer__div__ulMenu{
+.footer__left_container__ul_menu{
     display: flex;
     gap: 1rem;
 }
 
-.mainIndex__footer__div__ulLinks{
+.footer__left_container__ul_links{
     display: flex;
     gap: 1rem;
 }
-.mainIndex__footer-p strong{
+.footer__p strong{
     color: var(--orange);
 }
 /* FOOTER END  */
