@@ -22,7 +22,7 @@
     padding: 20px 150px;
 }
 
-.header-img{
+.header__img{
     height: 110px;
     width: auto;
     cursor: pointer;
@@ -46,7 +46,7 @@
     color: var(--orange);
 }
 
-.header__menu-button{
+.header__menu__button{
     padding: 0.5rem;
     background: var(--orange);
     color: white;
@@ -62,7 +62,7 @@
 /* MAIN */
 
 /* 01 SECTION */
-.main_index__hi_Section{
+.main-index__hi-Section{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -70,7 +70,7 @@
     width: 100%;
 }
 
-.main_index__hi_Section__left_container{
+.main-index__hi-Section__left-container{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -79,37 +79,37 @@
     box-sizing: border-box;
 }
 
-.main_index__hi_Section__left_container__description__p{
+.main-index__hi-Section__left-container__description__p{
     font-weight: 600;
 }
 
-.main_index__hi_Section__left_container__description__h2{
+.main-index__hi-Section__left-container__description__h2{
     font-weight: 600;
     color: var(--orange);
 }
 
-.main_index__hi_Section__left_container h1{
+.main-index__hi-Section__left-container h1{
     text-align: left; /* Alignement par défaut */
     line-height: 1;
     font-size: 80px;
     padding-bottom: 1rem;
 }
 
-.main_index__hi_Section__left_container h1 span:first-child {
+.main-index__hi-Section__left-container h1 span:first-child {
     display: block; /* Place "Emmanuel" sur une ligne séparée */
 }
 
-.main_index__hi_Section__left_container h1 span:last-child {
+.main-index__hi-Section__left-container h1 span:last-child {
     display: block; 
     margin-left: 12rem;
 }
 
-.main_index__hi_Section__left_container p{
+.main-index__hi-Section__left-container p{
     width: 100%;
     text-align: justify;
 }
 
-.main_index__hi_Section__left_container__btn{
+.main-index__hi-Section__left-container__btn{
     width: 188px;
     height: 52px;
     color: white;
@@ -120,25 +120,25 @@
     cursor: pointer;
 }
 
-.main_index__hi_Section__right_container{
+.main-index__hi-Section__right-container{
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 50%;
     box-sizing: border-box;
 }
-.main_index__hi_Section__right_container__img{
+.main-index__hi-Section__right-container__img{
     width: 450px;
     height: auto;
 }
 
-.main_index__hi_Section__right_container__ul{
+.main-index__hi-Section__right-container__ul{
     display: flex;
     gap: 1rem;
     padding: 1rem 0;
 }
 
-.main_index__hi_Section__right_container__ul img{
+.main-index__hi-Section__right-container__ul img{
     width: 32.48px;
     height: 32.48px;
 }
@@ -147,7 +147,7 @@
 /* 01 SECTION END */
 
 /* 02 SECTION START */
-.main_index__about_me{
+.main-index__about-me{
     display: flex;
     justify-content: space-between;
     padding: 61px 150px;
@@ -155,45 +155,45 @@
     align-items: center;
 }
 
-.main_index__about_me__div_img{
+.main-index__about-me__div_img{
     width: 50%;
 }
-.main_index__about_me__left_container_img{
+.main-index__about-me__left-container_img{
     width: 545.81px;
     height: auto;
 }
 
-.main_index__about_me__right_containe{
+.main-index__about-me__right-containe{
     width: 50%;
 }
-.main_index__about_me__right_container__description{
+.main-index__about-me__right-container__description{
     text-align: left;
     display: flex;
     flex-direction: column;
 }
 
-.main_index__about_me__right_container__description_h2{
+.main-index__about-me__right-container__description_h2{
     font-size: 65px;
     font-weight: 600;
 }
 
-.main_index__about_me__right_container__description_p{
+.main-index__about-me__right-container__description_p{
     text-align: justify;
 }
 
-.main_index__about_me__right_container__ul{
+.main-index__about-me__right-container__ul{
     padding-top: 1rem;
 }
 
-.main_index__about_me__right_container__ul li{
+.main-index__about-me__right-container__ul li{
     padding: 1rem 0;
 }
-.main_index__about_me__right_container__ul li p{
+.main-index__about-me__right-container__ul li p{
     font-size: 24px;
     font-weight: 600;
 }
 
-.main_index__about_me__right_container__ul div{
+.main-index__about-me__right-container__ul div{
     background: var(--orange);
     height: 10px;
     border-radius: 50px;
@@ -201,7 +201,7 @@
 /* 02 SECTION END  */
 
 /* 03 SECTION START */
-.main_index__service{
+.main-index__service{
     display: flex;
     gap: 2rem;
     padding: 61px 150px;
@@ -210,31 +210,31 @@
     flex-direction: column;
 }
 
-.main_index__service__description{
+.main-index__service__description{
     text-align: center;
 }
-.main_index__service__description__h2{
+.main-index__service__description__h2{
     font-size: 65px;
     font-weight: 600;
 }
 
-.main_index__service__description__p{
+.main-index__service__description__p{
     width: 40rem;
 }
 
-.main_index__service__ul{
+.main-index__service__ul{
     display: flex;
     gap: 2rem;
 }
 
-.main_index__service__ul li{
+.main-index__service__ul li{
     width: 15rem;
     height: 346px;
     background: var(--gris);
     border-radius: 14px;
 }
 
-.main_index__service__ul li a div{
+.main-index__service__ul li a div{
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -244,7 +244,7 @@
     height: 100%;
 }
 
-.main_index__service__ul li a div img{
+.main-index__service__ul li a div img{
     width: 55px;
     height: 55px;
     object-fit: contain; 
@@ -253,7 +253,7 @@
 /* 03 SECTION END */
 
 /* 04 SECTION START */
-.main_index__my_projetcs{
+.main-index__my-projetcs{
     display: flex;
     gap: 2rem;
     padding: 61px 150px;
@@ -261,54 +261,54 @@
     align-items: center;
     flex-direction: column;
 }
-.main_index__my_projetcs__description{
+.main-index__my-projetcs__description{
     display: flex ;
     flex-direction: column;
     text-align: center;
     justify-content: center;
 }
-.main_index__my_projetcs__description__h2{
+.main-index__my-projetcs__description__h2{
     font-size: 65px;
     font-weight: 600;
 }
 
-.main_index__my_projetcs__description__p{
+.main-index__my-projetcs__description__p{
     width: 40rem;
 }
 
-.main_index__my_projetcs__ul_buttons{
+.main-index__my-projetcs__ul-buttons{
     display: flex;
     gap: 1rem;
 }
 
-.main_index__my_projetcs__ul_buttons button{
+.main-index__my-projetcs__ul-buttons button{
     padding: 0.3rem;
     border-radius: 8px;
     border: gray 0.4px solid;
 }
 
-.main_index__my_projetcs__ul_img{
+.main-index__my-projetcs__ul-img{
     display: flex;
     justify-content: space-between;
     width: 100%;
 }
 
-.main_index__my_projetcs__ul_img li a div{
+.main-index__my-projetcs__ul-img li a div{
     display: flex;
     flex-direction: column;
 }
 
-.main_index__my_projetcs__ul_img li a div span{
+.main-index__my-projetcs__ul-img li a div span{
     color: var(--orange);
 }
 
-.main_index__my_projetcs__ul_img li a div p{
+.main-index__my-projetcs__ul-img li a div p{
     font-weight: 600;
 }
 /* 04 SECTION END */
 
 /* 05 SECTION START */
-.main_index__testimonials{
+.main-index__testimonials{
     display: flex;
     gap: 2rem;
     padding: 61px 150px;
@@ -317,20 +317,20 @@
     flex-direction: column;
 }
 
-.main_index__testimonials__description{
+.main-index__testimonials__description{
     text-align: center;
 }
 
-.main_index__testimonials__descriptio__h2{
+.main-index__testimonials__descriptio__h2{
     font-size: 65px;
     font-weight: 600;
 }
 
-.main_index__testimonials__description__p{
+.main-index__testimonials__description__p{
     width: 40rem;
 }
 
-.main_index__testimonials__right_container__ul{
+.main-index__testimonials__right-container__ul{
     display: flex;
     overflow-x: auto;
     width: 100%;
@@ -339,16 +339,16 @@
     box-sizing: border-box;
 }
 
-.main_index__testimonials__right_container__ul::-webkit-scrollbar {
+.main-index__testimonials__right-container__ul::-webkit-scrollbar {
     height: 1px;
 }
 
-.main_index__testimonials__right_container__ul::-webkit-scrollbar-thumb {
+.main-index__testimonials__right-container__ul::-webkit-scrollbar-thumb {
     background-color: var(--orange); /* Couleur de la barre */
     border-radius: 10px;
 }
 
-.main_index__testimonials__right_container__ul li{
+.main-index__testimonials__right-container__ul li{
     display: flex;
     background: var(--gris);
     width: 100%;
@@ -358,41 +358,41 @@
     border-radius: 1rem;
 }
 
-.main_index__testimonials__right_container__ul li img{
+.main-index__testimonials__right-container__ul li img{
     width: 13rem;
     height: 13rem;
 }
 
-.main_index__testimonials__right_container__ul li div{
+.main-index__testimonials__right-container__ul li div{
     display: flex;
     flex-direction: column;
     gap: 1rem;
     width: 30rem;
 }
 
-.main_index__testimonials__right_container__ul li div blockquote p{
+.main-index__testimonials__right-container__ul li div blockquote p{
     text-align: justify;
 }
 
-.main_index__testimonials__right_container__ul li div blockquote::before{
+.main-index__testimonials__right-container__ul li div blockquote::before{
     content: "“";
     color: var(--orange);
     font-weight:bolder;
 }
 
-.main_index__testimonials__right_container__ul li div blockquote::after{
+.main-index__testimonials__right-container__ul li div blockquote::after{
     content: "”";
     color: var(--orange);
     font-weight:bolder;
 }
 
-.main_index__testimonials__right_container__ul li div div p{
+.main-index__testimonials__right-container__ul li div div p{
     font-weight: 600;
 }
 /* 05 SECTION END */
 
 /* 06 SECTION START */
-.main_index__lets_design{
+.main-index__lets-design{
     display: flex;
     gap: 2rem;
     padding: 61px 150px;
@@ -402,21 +402,21 @@
     flex-direction: column;
 }
 
-.main_index__lets_design__description__h2{
+.main-index__lets-design__description__h2{
     font-size: 65px;
     font-weight: 600;
 }
 
-.main_index__lets_design__description__p{
+.main-index__lets-design__description__p{
     width: 40rem;
 }
 
-.main_index__lets_design__form{
+.main-index__lets-design__form{
     display: flex;
     gap: 1rem;
 }
 
-.main_index__lets_design__form__input{
+.main-index__lets-design__form__input{
     height: 3rem;
     width: 32rem;
     padding: 1rem;
@@ -426,7 +426,7 @@
     
 }
 
-.main_index__lets_design__form__button{
+.main-index__lets-design__form__button{
     width: 8rem;
     border-radius: 10px;
     border: none;
@@ -444,7 +444,7 @@
     padding: 10px;
 }
 
-.footer__left_container{
+.footer__left-container{
     display: flex;
     flex-direction: column;
     background: var(--gris);
@@ -454,18 +454,18 @@
     padding: 3rem;
 }
 
-.footer__left_container__img{
+.footer__left-container__img{
     height: 110px;
     width: auto;
     cursor: pointer;
 }
 
-.footer__left_container__ul_menu{
+.footer__left-container__ul-menu{
     display: flex;
     gap: 1rem;
 }
 
-.footer__left_container__ul_links{
+.footer__left-container__ul-links{
     display: flex;
     gap: 1rem;
 }
