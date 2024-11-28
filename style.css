@@ -474,3 +474,213 @@
 }
 /* FOOTER END  */
 
+
+/* mes media queries */
+
+/* TELEPHONES STARTS*/
+@media (max-width: 600px) {
+.header{
+    padding: 1rem;
+}
+.header__img{
+    height: 55px;
+    width: auto;
+}
+
+.header__menu{
+    display: none;
+}
+.header__menu-burger{
+    color: black;
+}
+
+.main-index{
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.main-index__hi-Section{
+    flex-direction: column-reverse;
+    justify-content: left;
+    gap: 2rem;
+    padding: 1rem;
+}
+
+.main-index__hi-Section__left-container{
+    width: 100%;
+}
+.main-index__hi-Section__left-container__description{
+    text-align: left;
+}
+
+.main-index__hi-Section__left-container h1{
+    text-align: left; 
+    line-height: 1;
+    font-size: 35px;
+    padding-bottom: 1rem;
+}
+
+.main-index__hi-Section__left-container h1 span:first-child {
+    display: block; /* Place "Emmanuel" sur une ligne séparée */
+}
+
+.main-index__hi-Section__left-container h1 span:last-child {
+    display: block; 
+    margin-left: 5rem;
+}
+
+.main-index__hi-Section__left-container p {
+    text-align: left;
+    padding: 0;
+}
+
+.main-index__hi-Section__left-container__btn{
+    width: 100%;
+}
+
+.main-index__hi-Section__right-container__img{
+    width: 300px;
+}
+
+.main-index__about-me{
+    flex-direction: column;
+    padding: 0;
+}
+.main-index__about-me__left-container__img{
+    width: 350px;
+}
+
+.main-index__about-me__right-container{
+    width: 100%;
+}
+
+.main-index__about-me__right-container__description__h2{
+    font-size: 35px;
+}
+
+.main-index__service{
+    flex-direction: column;
+    padding: 2rem 0;
+}
+
+.main-index__service__description{
+    text-align: left;
+}
+.main-index__service__description__h2{
+    font-size: 35px;
+    font-weight: 600;
+}
+.main-index__service__description__p{
+    font-size: 16px;
+    width: 100%;
+}
+.main-index__service__ul{
+    flex-direction: column;
+    width: 100%;
+}
+
+.main-index__service__ul li {
+    width: 100%;
+    justify-content: center;
+}
+
+.main-index__service__ul li div {
+    align-items: center;
+}
+
+.main-index__service__ul li div p{
+    text-align: justify;
+    width: 100%;
+}
+
+.main-index__my-projetcs{
+    padding: 0;
+}
+.main-index__my-projetcs__description{
+    text-align: left;
+}
+.main-index__my-projetcs__description__h2{
+    font-size: 35px;
+}
+.main-index__my-projetcs__description__p{
+    font-size: 14px;
+    width: 100%;
+}
+.main-index__my-projetcs__ul-buttons li{
+    width: fit-content;
+}
+
+.main-index__my-projetcs__ul-buttons li button{
+    font-size: 12px;
+}
+.main-index__my-projetcs__ul-img{
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.main-index__testimonials{
+    padding: 0;
+}
+.main-index__testimonials__description{
+    text-align: left;
+    width: 100%;
+}
+.main-index__testimonials__description__h2{
+    font-size: 35px;
+    font-weight: 600;
+    padding-top: 2rem;
+}
+
+.main-index__testimonials__description__p{
+    width: 100%;
+    font-size: 14px;
+}
+
+.main-index__testimonials__right-container__ul{
+    /* flex-direction: column; */
+}
+
+.main-index__testimonials__right-container__ul li {
+    flex-direction: column;
+}
+.main-index__testimonials__right-container__ul li div {
+    width: 100%;
+}
+
+.main-index__lets-design{
+    width: 100%;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-index__lets-design__description{
+    text-align: left;
+}
+
+.main-index__lets-design__description__h2{
+    font-size: 35px;
+}
+
+.main-index__lets-design__description__p{
+    font-size: 16px;
+    width: 100%;
+}
+.main-index__lets-design__form{
+    flex-direction: column;
+    width: 100%;
+}
+.main-index__lets-design__form__input{
+    width: 100%;
+}
+
+.main-index__lets-design__form__button{
+    padding: 1rem;
+    width: 100%;
+}
+.footer__left-container__ul-menu{
+    flex-direction: column;
+}
+
+.footer__left-container{
+gap: 2rem;
+}
+}
+/* TELEPHONES END  */
